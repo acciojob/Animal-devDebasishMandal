@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+#photo-heading{
+    color: #fff;
+    font-size: 32px;
+}
+
+#animal-photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.763);
+}
+
+#photos>img{
+    height:150px;
+    width:150px;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+#photos{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   padding: 5px;
+}
